@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:text="Task 1"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="34sp" />
+
+        <Space
+            android:layout_width="174dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/Task1"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Task Name"
+            android:inputType="textPersonName"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/Perc1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="%"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:text="Task 2"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="34sp" />
+
+        <Space
+            android:layout_width="174dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/Task2"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Task Name"
+            android:inputType="textPersonName"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/Perc2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="%"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:text="Task 3"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="34sp" />
+
+        <Space
+            android:layout_width="174dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/Task3"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Task Name"
+            android:inputType="textPersonName"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/Perc3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="%"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:text="Task 4"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="34sp" />
+
+        <Space
+            android:layout_width="174dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/Task4"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Task Name"
+            android:inputType="textPersonName"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/Perc4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="%"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="320dp"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:text="Submit" />
+
+</LinearLayout>
